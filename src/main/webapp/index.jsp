@@ -14,14 +14,26 @@
 	<br>
 	<h2>Select Vehicle Type</h2>
 	<form action="ListAllParkingFloorsServlet" method="post">
+		Select floor type
 		<select id="vehicleType" name="vehicleType">
 			<option value="car" selected>Car</option>
 			<option value="bike">Bike</option>
 		</select>
 		<button type="submit">
-			Submit
+			Park your Vehicle
 			
 		</button>									
+	</form>
+	
+	<br>
+	<br>
+	<form action="unparkVehicle.jsp">
+		<button type="submit">
+			UnPark Vehicle
+			
+		</button>	
+	
+	
 	</form>
 	
 </body>
