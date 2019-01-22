@@ -9,7 +9,7 @@
 	
 	<form action="VehicleUnParkServlet" method="post">
 		Enter Floor Number:
-		<input name="floortNumber" type="number">
+		<input name="floorNumber" type="number">
 		
 		
 		<br>
